@@ -1,0 +1,106 @@
+* {
+    font-family: "Montagu Slab";
+  }
+  
+  h1, #subheading, #img-caption, h2, #wiki {
+    text-align: center;
+  }
+  
+  h1 {
+    padding-top: 10px;
+    font-size: 40px;
+  }
+  
+  body {
+    background-image: url(http://m.joyceproject.com/images/for-chapter/6/fullsize/funeralroute.jpg);
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 30px;
+    background: hsl(0, 0%, 95%);
+    opacity: 0.95;
+  }
+  
+  #img-div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 85%;
+    padding: 2rem;
+    margin: auto;
+    border: 0;
+    background-color: white;
+  }
+  
+  #image {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  
+  #img-caption {
+    font-size: 13px;
+    margin: 10px 0 0 0;
+  }
+  
+  #image {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  #tribute-info {
+    padding: 10px 75px;
+    margin: 20px 25px;
+  }
+  
+  #headline {
+    padding-top: 10px;
+  }
+  
+  #timeline {
+    padding: 10px 0;
+  }
+  
+  ul li {
+    padding: 5px 3px 25px 3px;
+  }
+  
+  ol li {
+    padding: 15px 3px 5px 3px;
+  }
+  
+  #year {
+    font-weight: bold;
+  }
+  
+  #ulysses {
+    font-style: oblique;
+  }
+  
+  #quote {
+    font-style: italic;
+    background-color: white;
+    margin-bottom: 55px;
+    padding: 10px 20px;
+  }
+  
+  #wiki {
+    font-weight: bold;
+  }
+  
+  a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: #666666;
+  }
+  
+  a:hover {
+    color: rgb(166, 166, 166);
+  }
+  
+  a:active {
+    color: hsl(0, 0%, 69%);
+  }
